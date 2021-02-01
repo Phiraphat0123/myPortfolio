@@ -1,0 +1,377 @@
+
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*index*/
+
+ .index_header{ 
+     background-color: rgb(255, 70, 55);
+     width: 100%;
+     padding: 20px 0px;
+     display: block;
+     overflow: hidden;
+     box-sizing: border-box;
+     margin:0px 0px;
+   }
+   .index_inner_header{
+       
+       margin:0px 250px;
+       width:1100px;
+       height:100%;
+   }
+  .index_inner_header .index_inner_headerh1 {
+     width: calc(21.6666666667% -20px);
+     margin-right:20px;
+     float: left;
+     height: auto;
+     margin-top: 10px;
+     font-size: 20px;
+      
+  }
+  .index_inner_header .index_container{
+      width: 120px;
+      float: left;
+    height: 100%;
+    display: block;
+    margin-left: -90px;
+      
+  }
+  .index_inner_header .index_container img{
+      width: 65px;
+      height: auto;
+     
+  }
+  .index_container_about{
+    float: left;
+    display: block;
+    height: 42px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(228, 188, 71); 
+    padding:0px 3px 3px 3px;
+    float: right;
+    margin-top: 10px;
+    cursor: context-menu;
+    transition: width 1s ;
+    overflow: hidden;
+    transition-timing-function: ease;
+    transition-delay: 0.2s;
+  }
+  .index_inner_about{
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+  }
+  .index_container_about:hover {
+    width: 430px;
+   
+  }
+  #index_inner_about_red:hover{
+    color: rgb(255, 70, 55);
+  }
+  /*index*/
+
+  /*about*/
+  .about_header{ 
+    background-color: rgb(255, 70, 55);
+    width: 100%;
+    padding: 20px 0px;
+    display: block;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin:0px 0px;
+  }
+  .about_inner_header{
+      
+      margin:0px 250px;
+      width:1100px;
+      height:100%;
+  }
+ .about_inner_header .about_inner_headerh1 {
+    width: calc(21.6666666667% -20px);
+    margin-right:20px;
+    float: left;
+    height: auto;
+    margin-top: 10px;
+    font-size: 20px;
+     
+ }
+ .about_inner_header .about_container{
+     width: 120px;
+     float: left;
+   height: 100%;
+   display: block;
+   margin-left: -90px;
+     
+ }
+ .about_about_inner_header .about_container img{
+     width: 65px;
+     height: auto;
+ }
+ .about_container_menu{
+   float: left;
+   display: block;
+   height: 42px;
+   width: 200px;
+   border-radius: 10px;
+   background-color: rgb(228, 188, 71); 
+   padding:0px 3px 3px 3px;
+   float: right;
+   margin-top: 10px;
+   cursor: context-menu;
+   transition:  height 1s;
+   overflow: hidden;
+   transition-timing-function: ease;
+   transition-delay: 0.2s;
+   
+ }
+ .about_inner_menu{
+   font-size: 20px;
+   padding: 10px 10px 10px 10px;
+   
+   overflow: hidden;
+ }
+ .about_container_menu:hover {
+   
+   height: 185px;
+  
+ }
+ .list_menu ,a{
+   text-decoration:none;
+   color:#232323 ;
+   
+ }
+.list_menu:hover{
+  color:rgb(255, 70, 55) ;
+}
+ 
+/*about*/
+
+/*skill*/
+.skill_header{ 
+  background-color: rgb(255, 70, 55);
+  width: 100%;
+  padding: 20px 0px;
+  display: block;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin:0px 0px;
+}
+.skill_inner_header{
+    
+    margin:0px 250px;
+    width:1100px;
+    height:100%;
+}
+.skill_inner_header .skill_inner_headerh1 {
+  width: calc(21.6666666667% -20px);
+  margin-right:20px;
+  float: left;
+  height: auto;
+  margin-top: 10px;
+  font-size: 20px;
+   
+}
+.skill_inner_header .skill_container{
+   width: 120px;
+   float: left;
+ height: 100%;
+ display: block;
+ margin-left: -90px;
+   
+}
+.skill_about_inner_header .skill_container img{
+   width: 65px;
+   height: auto;
+}
+.skill_container_menu{
+ float: left;
+ display: block;
+ height: 42px;
+ width: 200px;
+ border-radius: 10px;
+ background-color: rgb(228, 188, 71); 
+ padding:0px 3px 3px 3px;
+ float: right;
+ margin-top: 10px;
+ cursor: context-menu;
+ transition:  height 1s;
+ overflow: hidden;
+ transition-timing-function: ease;
+ transition-delay: 0.2s;
+ 
+}
+.skill_inner_menu{
+ font-size: 20px;
+ padding: 10px 10px 10px 10px;
+ 
+ overflow: hidden;
+}
+.skill_container_menu:hover {
+ 
+ height: 185px;
+
+}
+.list_menu ,a{
+ text-decoration:none;
+ color:#232323 ;
+ 
+}
+.list_menu:hover{
+color:rgb(255, 70, 55) ;
+}
+
+/*skill*/
+
+/*education*/
+.edu_header{ 
+  background-color: rgb(255, 70, 55);
+  width: 100%;
+  padding: 20px 0px;
+  display: block;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin:0px 0px;
+}
+.edu_inner_header{
+    
+    margin:0px 250px;
+    width:1100px;
+    height:100%;
+}
+.edu_inner_header .edu_inner_headerh1 {
+  width: calc(21.6666666667% -20px);
+  margin-right:20px;
+  float: left;
+  height: auto;
+  margin-top: 10px;
+  font-size: 20px;
+   
+}
+.edu_inner_header .edu_container{
+   width: 120px;
+   float: left;
+ height: 100%;
+ display: block;
+ margin-left: -90px;
+   
+}
+.edu_about_inner_header .edu_container img{
+   width: 65px;
+   height: auto;
+}
+.edu_container_menu{
+ float: left;
+ display: block;
+ height: 42px;
+ width: 200px;
+ border-radius: 10px;
+ background-color: rgb(228, 188, 71); 
+ padding:0px 3px 3px 3px;
+ float: right;
+ margin-top: 10px;
+ cursor: context-menu;
+ transition:  height 1s;
+ overflow: hidden;
+ transition-timing-function: ease;
+ transition-delay: 0.2s;
+ 
+}
+.edu_inner_menu{
+ font-size: 20px;
+ padding: 10px 10px 10px 10px;
+ 
+ overflow: hidden;
+}
+.edu_container_menu:hover {
+ 
+ height: 185px;
+
+}
+.list_menu ,a{
+ text-decoration:none;
+ color:#232323 ;
+ 
+}
+.list_menu:hover{
+color:rgb(255, 70, 55) ;
+}
+/*education*/
+
+/*sample work*/
+.sam_header{ 
+  background-color: rgb(255, 70, 55);
+  width: 100%;
+  padding: 20px 0px;
+  display: block;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin:0px 0px;
+}
+.sam_inner_header{
+    
+    margin:0px 250px;
+    width:1100px;
+    height:100%;
+}
+.sam_inner_header .sam_inner_headerh1 {
+  width: calc(21.6666666667% -20px);
+  margin-right:20px;
+  float: left;
+  height: auto;
+  margin-top: 10px;
+  font-size: 20px;
+   
+}
+.sam_inner_header .sam_container{
+   width: 120px;
+   float: left;
+ height: 100%;
+ display: block;
+ margin-left: -90px;
+   
+}
+.sam_about_inner_header .sam_container img{
+   width: 65px;
+   height: auto;
+}
+.sam_container_menu{
+ float: left;
+ display: block;
+ height: 42px;
+ width: 200px;
+ border-radius: 10px;
+ background-color: rgb(228, 188, 71); 
+ padding:0px 3px 3px 3px;
+ float: right;
+ margin-top: 10px;
+ cursor: context-menu;
+ transition:  height 1s;
+ overflow: hidden;
+ transition-timing-function: ease;
+ transition-delay: 0.2s;
+ 
+}
+.sam_inner_menu{
+ font-size: 20px;
+ padding: 10px 10px 10px 10px;
+ 
+ overflow: hidden;
+}
+.sam_container_menu:hover {
+ 
+ height: 185px;
+
+}
+.list_menu ,a{
+ text-decoration:none;
+ color:#232323 ;
+ 
+}
+.list_menu:hover{
+color:rgb(255, 70, 55) ;
+}
+/*sample work*/
