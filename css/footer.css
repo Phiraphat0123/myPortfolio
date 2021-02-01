@@ -1,0 +1,187 @@
+/*index*/
+.index_footer{
+   
+    color: rgb(228, 188, 71);
+    width: 75px;
+    padding-left:10px ;
+    
+    background-color: #232323;
+    font-size: 30px ;
+    transition: width 2.5s;
+    transition-delay: 0.25s;
+    overflow: hidden;
+    cursor: context-menu;
+    position: relative;
+    float: left;
+}
+.index_footer:hover{
+    width: 500px;
+}
+.index_inner_footer{
+    color:rgb(228, 188, 71) ;
+}
+.index_inner_footer:hover{
+    color: rgb(255, 70, 55);
+}
+/*index*/
+
+/*about_me*/
+.about_footer{
+   
+    color: #232323 ;
+    width: 75px;
+    padding-left:10px ;
+    
+    background-color: rgb(255, 70, 55);
+    font-size: 30px ;
+    transition: width 2.5s;
+    transition-delay: 0.25s;
+    overflow: hidden;
+    cursor: context-menu;
+    position: relative;
+    float: left;
+}
+.about_footer:hover{
+    width: 500px;
+}
+.about_inner_footer{
+    color: #232323 ;
+}
+.about_inner_footer:hover{
+    color: rgb(228, 188, 71);
+}
+.about_More{
+    background-color: rgb(255, 70, 55);
+    height: 40px;
+    width: 100%;
+    display: block;
+    float: left;
+    padding-top: 10px;
+    padding-right:0 ;
+    overflow: hidden;
+    padding-right:0px ;
+    position: relative;
+
+}
+/*about_me*/
+
+/*skill*/
+.skill_footer{
+   
+    color: #232323 ;
+    width: 75px;
+    padding-left:10px ;
+    
+    background-color: rgb(255, 70, 55);
+    font-size: 30px ;
+    transition: width 2.5s;
+    transition-delay: 0.25s;
+    overflow: hidden;
+    cursor: context-menu;
+    position: relative;
+    float: left;
+}
+.skill_footer:hover{
+    width: 500px;
+}
+.skill_inner_footer{
+    color: #232323 ;
+}
+.skill_inner_footer:hover{
+    color: rgb(228, 188, 71);
+}
+.skill_More{
+    background-color: rgb(255, 70, 55);
+    height: 40px;
+    width: 100%;
+    display: block;
+    float: left;
+    padding-top: 10px;
+    padding-right:0 ;
+    overflow: hidden;
+    padding-right:0px ;
+    position: relative;
+
+}
+
+/*skill*/
+
+/*education*/
+.edu_footer{
+   
+    color: #232323 ;
+    width: 75px;
+    padding-left:10px ;
+    
+    background-color: rgb(255, 70, 55);
+    font-size: 30px ;
+    transition: width 2.5s;
+    transition-delay: 0.25s;
+    overflow: hidden;
+    cursor: context-menu;
+    position: relative;
+    float: left;
+}
+.edu_footer:hover{
+    width: 500px;
+}
+.edu_inner_footer{
+    color: #232323 ;
+}
+.edu_inner_footer:hover{
+    color: rgb(228, 188, 71);
+}
+.edu_More{
+    background-color: rgb(255, 70, 55);
+    height: 40px;
+    width: 100%;
+    display: block;
+    float: left;
+    padding-top: 10px;
+    padding-right:0 ;
+    overflow: hidden;
+    padding-right:0px ;
+    position: relative;
+
+}
+/*education*/
+
+/*sample work*/
+.sam_footer{
+   
+    color: #232323 ;
+    width: 75px;
+    padding-left:10px ;
+    
+    background-color: rgb(255, 70, 55);
+    font-size: 30px ;
+    transition: width 2.5s;
+    transition-delay: 0.25s;
+    overflow: hidden;
+    cursor: context-menu;
+    position: relative;
+    float: left;
+}
+.sam_footer:hover{
+    width: 500px;
+}
+.sam_inner_footer{
+    color: #232323 ;
+}
+.sam_inner_footer:hover{
+    color: rgb(228, 188, 71);
+}
+.sam_More{
+    background-color: rgb(255, 70, 55);
+    height: 40px;
+    width: 100%;
+    display: block;
+    float: left;
+    padding-top: 10px;
+    padding-right:0 ;
+    overflow: hidden;
+    padding-right:0px ;
+    position: relative;
+
+}
+/*sample work*/
