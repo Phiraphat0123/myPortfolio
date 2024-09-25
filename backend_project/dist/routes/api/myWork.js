@@ -2,7 +2,7 @@ import express from "express";
 import mysqlConfig from '../../dbConfig/mysqlConfig.js';
 // const express =require("express")
 const router = express.Router();
-router.get('/:id?', async (req, res) => {
+router.get('/list/:id', async (req, res) => {
     let id = req.params.id == undefined ? undefined : parseInt(req.params.id);
     let dataList;
     dataList = await mysqlConfig(id == undefined ? 0 : id);
